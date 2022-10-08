@@ -1,0 +1,51 @@
+.landing-page .header .line1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 4em;
+    color: rgb(33, 2, 2);
+}
+.landing-page .header .line2{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 4em;
+    color: rgb(255, 147, 53);
+}
+.landing-page .get-started-btn{
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    background-image: linear-gradient(90deg, rgba(255,207,33,1) 0%, rgba(255,155,48,1) 50%, rgba(255,207,33,1) 100%);
+    background-size: 300% 100%;
+    color: black;
+    font-size: 1.8em;
+    border-radius: 10px;
+    border: none;
+    /* box-shadow: 2px 2px 3px 1px rgb(166, 166, 166); */
+    transition: all 0.4s;
+}
+.landing-page .get-started-btn:hover {
+    background-position: 100% 0;
+}
+.landing-page .get-started-btn span{
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+.landing-page .get-started-btn span:after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+.landing-page .get-started-btn:hover span{
+    padding-right: 25px;
+}
+.landing-page .get-started-btn:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.landing-page .header .btn-div{
+    margin-top: 40px;
+    display: flex;
+}

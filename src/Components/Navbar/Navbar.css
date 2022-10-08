@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #e3f2fd;
+    height: 70px;
+    font-size: 1.2em;
+}
+.navbar ul li{
+    padding-left: 40px;
+}
+.navbar-brand img{
+    width: 50px;
+}
+.navbar-brand span{
+    position: relative;
+    top: 3px;
+    padding-left: 2px;
+}
