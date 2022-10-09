@@ -8,7 +8,7 @@ function LandingPage() {
         <h1 className='line line1'>Welcome to</h1>
         <h1 className='line line2'>CryptoTracker</h1>
         <div className="btn-div">
-          <button className='get-started-btn'><span>Get Started </span></button>
+          <a className='get-started-btn' href="/home"><span>Get Started </span></a>
         </div>
       </div>
     </div>

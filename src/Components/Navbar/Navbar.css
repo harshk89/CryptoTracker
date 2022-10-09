@@ -1,7 +1,9 @@
 .navbar {
-    background-color: #e3f2fd;
+    /* background-color: #e3f2fd; */
     height: 70px;
     font-size: 1.2em;
+    width: 80%;
+    margin: auto;
 }
 .navbar ul li{
     padding-left: 40px;
@@ -13,4 +15,12 @@
     position: relative;
     top: 3px;
     padding-left: 2px;
+}
+.navbar.glass-effect{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.419), rgba(255, 255, 255, 0.156));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 32px;
 }

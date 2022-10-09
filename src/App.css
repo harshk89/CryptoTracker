@@ -1,0 +1,7 @@
+.app{
+    background-image: url(./bg.jpg);
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}

@@ -1,0 +1,98 @@
+.coin-card.glass-effect.green{
+    background: linear-gradient(135deg, rgba(155, 240, 158, 0.595), rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 32px;
+}
+.coin-card.glass-effect.red{
+    background: linear-gradient(135deg, rgba(240, 168, 155, 0.595), rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 32px;
+}
+.coin-card{
+    text-decoration: none;
+    margin: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(108, 216, 252, 0.24);
+    transition: all 0.2s;
+}
+.coin-card:hover{
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);  
+    /* background-color: rgba(108, 216, 252, 0.337); */
+    scale: 1.01;
+    color: rgb(0, 0, 0);
+}
+.coin-card .logo{
+    padding: 0px 15px;
+    text-align: center;
+}
+.coin-card .logo img{
+    margin-top: 4px;
+    width: 55px;
+}
+.coin-card .logo h5{
+    padding-top: 4px;
+    font-size: 1em;
+}
+.coin-card .coin-info{
+    display: flex;
+}
+.coin-card .coin-info-primary{
+    min-width: 200px;
+    padding-right: 15px;
+    border-right: 1px solid rgb(181, 181, 181);
+}
+.coin-card .coin-info .coin-name{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.coin-card .coin-info .price-tag {
+    font-weight: 400;
+    margin-top: 3px;
+}
+.coin-card .coin-info .change-tag{
+    font-weight: 400;
+}
+.coin-card .coin-info .coin-price{
+    /* color: rgb(0, 176, 18); */
+    font-weight: 650;
+}
+.coin-card .coin-info .coin-change{
+    /* color: rgb(233, 68, 27); */
+    font-weight: 650;
+}
+.coin-card .coin-info .price-change-arrow img{
+    width: 13px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+.coin-card .coin-info-secondary{
+    margin-left: 10px;
+}
+.coin-card .coin-info-secondary .marketCap-tag{
+    font-weight: 400;
+}
+.coin-card .coin-info-secondary .Volume-tag{
+    font-weight: 400;
+}
+.coin-card .coin-info-secondary .coin-marketCap{
+    color: rgb(0,2,100);
+    font-weight: 500;
+}
+.coin-card .coin-info-secondary .coin-24hVolume{
+    color: rgb(0,2,100);
+    font-weight: 500;
+}
+.hello {
+    color: #de2100;
+}
