@@ -24,7 +24,7 @@ function Home() {
             const data = await fetch(url, {
                 method: 'GET',
                 headers: {
-                'X-RapidAPI-Key': 'a6d6ab2983msh43a63cc71b3af12p1ef8edjsnc030d0badb7d',
+                'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
                 'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
                 }
             });
